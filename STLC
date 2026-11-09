@@ -1,0 +1,82 @@
+STLC – Software Testing Life Cycle
+STLC stands for Software Testing Life Cycle.
+It is a step-by-step process or procedure to test a software application.
+It contains different stages or phases, such as:
+System Study
+Prepare Test Plan or Write Test Plan
+Write Test Cases
+Prepare RTM
+Execute Test Cases
+Defect Tracking
+Test Execution Report
+Retrospective Meeting or Postmortem Meeting
+These are the stages of STLC.
+1. System Study
+In this stage, we go through the requirements given by the customer and understand how the system works.
+Test engineers will study and understand the requirements before starting the testing process.
+This whole process is called System Study.
+2. Prepare Test Plan or Write Test Plan
+A Test Plan is a document prepared by the Senior Test Engineer, Senior Test Manager, Test Lead, or experienced people.
+It explains the overall testing approach and planning for the project.
+This document is called the Test Plan.
+3. Write Test Cases
+A test case is a step-by-step process or procedure used to test an application.
+In this stage, once we go through the requirements, we identify the test scenarios and convert them into test cases.
+To write test cases, we need:
+Requirements
+Test Case Template
+Test Scenarios
+Tools used:
+Jira
+QC
+ALM
+These tools are used to write and manage test cases.
+4. Prepare RTM
+RTM stands for Requirement Traceability Matrix.
+It is a document prepared to check whether each and every requirement has at least one test case or not.
+To prepare RTM, we need:
+Requirements
+Test Cases
+This document helps us ensure that all requirements are covered by test cases.
+5. Execute Test Cases
+Once the requirements are given to the Test Engineers, they write test cases for the application.
+After developers develop the application, Test Engineers execute the test cases.
+The actual results are compared with the expected results.
+If Expected Result and Actual Result are the same, the status will be PASS.
+If Expected Result and Actual Result are not the same, the status will be FAIL.
+This process is called Execute Test Cases.
+To execute test cases, we need:
+Test Cases
+Software Application
+This is where exactly the software is tested.
+This is the most important phase of STLC because we find the maximum number of bugs during this phase.
+6. Defect Tracking
+While executing test cases, if we find any defects, those defects will be reported to the developers.
+Now, the Test Engineer should track what is happening with the defect.
+They will check whether the developer has fixed the defect or not.
+This process is called Defect Tracking.
+7. Test Execution Report
+This report tells us about the total number of test cases executed.
+It also tells us:
+Total number of test cases executed.
+How many test cases are passed.
+How many test cases are failed.
+This report will be prepared during the project and also at the end of the project.
+It can be prepared by:
+Test Engineer
+Test Manager
+Test Lead
+Senior Experienced People
+Until this stage, the customer can be involved and can ask for all the documents.
+This stage is the last stage for the customer.
+8. Retrospective Meeting or Postmortem Meeting
+Once everything is completed, all the team members will gather together.
+Team members include:
+Test Engineer
+Developer
+Manager
+Business Analyst
+They will discuss the good things that happened in the project and the improvements needed in the project.
+These points will be considered for future projects.
+This whole process is called Retrospective Meeting or Postmortem Meeting.
+The entire process is called Software Testing Life Cycle (STLC).
