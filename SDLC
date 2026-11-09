@@ -1,0 +1,71 @@
+SDLC – Software Development Life Cycle
+SDLC stands for Software Development Life Cycle.
+It is a step-by-step process or procedure to develop and test a software application.
+It contains different stages or phases, such as:
+Requirement Collection or Gathering->Feasibility Study->Design->Coding or Development or Implementation->Testing->Installation or Deployment->Maintenance
+These are the steps we represent in a flowchart.
+1. Requirement Collection or Gathering
+Usually, the customer gives the requirements in the form of Customer Requirement Specification (CRS) or Business Requirement Specification (BRS).
+These requirements are converted into SRS (Software Requirement Specification) by the Business Analyst (BA).
+This document will be handed over to the software company.
+This whole stage is called Requirement Collection or Gathering.
+2. Feasibility Study
+In this stage, all the team members gather together and take the final decision about the project.
+Team members include:
+Business Analyst
+HR Team
+Project Manager
+Finance Team
+Architect
+The BA will explain the project to all the members.
+HR Team: HR will think about the required resources.
+Finance Team: Finance will think about whether the company should accept the project and whether it will generate profit or loss. They will also consider the budget.
+Architect: The architect will think about the design and technologies.
+Project Manager: The project manager will take overall responsibility for the project.
+This whole process is called Feasibility Study.
+After that, an agreement will be signed between the customer company and the software company.
+The project will be delivered to the customer company before the agreed date.
+3. Design
+Design is a document prepared by a Senior Architect or Senior Developer.
+There are two types of designs:
+High-Level Design (HLD)
+Low-Level Design (LLD)
+High-Level Design:
+High-Level Design tells us about the external architecture of an application.
+Low-Level Design:
+Low-Level Design tells us about the internal architecture of an application.
+Both High-Level Design and Low-Level Design are documents prepared based on the requirements.
+4. Coding or Development or Implementation
+Once the design is ready, all the developers will start writing the source code of an application based on the requirements and design.
+There are two types of developers:
+Front-End Developer
+Back-End Developer
+Front-End Developer: A person who knows the source code of the front end.
+Back-End Developer: A person who knows the back-end source code.
+Full-Stack Developer: A person who knows both front-end and back-end source code.
+This whole process is called Development.
+Development happens on the Development Server.
+5. Testing
+Once the UI (User Interface) is ready, the Test Engineers will start testing by using different types of testing.
+If a Test Engineer finds any defect or bug, they will report it to the developer.
+Now, developers will fix that bug and give the application back to the testing team.
+The Test Engineers will check whether the application is working properly or not by using different types of testing.
+This whole process is called Testing.
+Testing happens on the Testing Server.
+6. Installation or Deployment
+Once the application is ready, it is moved from the Testing Server or Staging Server to the Production Server.
+This process is called Installation.
+Installation is done by the Installation Team, Senior Developer, or Senior Test Engineer.
+7. Maintenance
+Once the application is used by the end users or the public, if there are any bugs, defects, or issues found in the application, they will be resolved by the software company.
+It is a service or support given by the software company to the customer company.
+Initially, it will be free support. Later, paid support will be provided.
+There are two types of maintenance:
+Free Maintenance
+Paid Maintenance
+Free Maintenance:
+Free maintenance is provided for a particular period.
+Paid Maintenance:
+After the free maintenance period, paid maintenance will be accepted.
+This whole process is called Maintenance.
+The entire process is called Software Development Life Cycle (SDLC).
