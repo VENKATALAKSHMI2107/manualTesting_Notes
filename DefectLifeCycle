@@ -1,0 +1,88 @@
+DLC – Defect Life Cycle
+DLC stands for Defect Life Cycle.
+The alternative names of DLC are:
+Bug Life Cycle
+Status of Defect
+Status of Bugs
+When we are executing manual test cases, if the Expected Result and Actual Result are not the same, that is a defect.
+Then the defect is raised to the developers. The status will be New.
+The defect will be assigned to the concerned Developer or Development Lead. The status is Assigned.
+Then the developer will reproduce the defect, and it will be given the status Reproducible. Then it will be accepted.
+Developers start fixing the defect in the Development Server, and it will be installed in the Testing Server.
+Then developers will change the status to Fixed.
+Now Test Engineers will start retesting the defect in the Testing Server.
+If the defect is properly fixed, then the status will be Closed.
+If the defect is not fixed properly, then again the defect will be Reopened to the developers.
+This process will continue.
+Once the defect is closed, the status will be Pass.
+This complete process is called Defect Life Cycle or Bug Life Cycle.
+Other stages in Defect Life Cycle:
+Duplicate
+Deferred
+Invalid
+Can't Fix
+Can't Reproduce
+Request for Enhancement (RFE)
+1. Duplicate
+Whenever the same defect is raised multiple times, then the second defect will be changed to Duplicate status by the developers.
+It is a Test Engineer's mistake.
+Flowchart:
+New / Open → Assign → Duplicate → Closed
+It is a Developer's mistake:
+New / Open → Assign → Duplicate → Assign → Fixed → Retest → Closed
+How to avoid Duplicate status?
+Communicate with the team members before raising the defect.
+Check the repository before raising the defects.
+The repository can be:
+QC
+ALM
+Jira
+Bugzilla
+Note: Duplicate is a bad status for Test Engineers.
+2. Deferred Status
+Whenever Test Engineers raise the defect, developers have less time to fix the defect.
+In this case, developers will postpone fixing minor defects.
+Then they will change the status to Deferred or Postponed.
+Flowchart:
+New / Open → Assign → Deferred → Fixed → Retest → Closed
+Note: Deferred is good for Test Engineers.
+3. Invalid or Rejected Status
+Whenever Test Engineers raise a defect to the developers, if developers are not accepting it as a defect, then it will be changed to Invalid status.
+Example: If Developers are correct:
+New / Open → Assign → Invalid → Closed
+If Test Engineers are correct:
+New / Open → Assign → Invalid → Assign → Fixed → Retest → Closed
+4. Can't Reproduce
+Whenever Test Engineers raise the defect and they also have proof, but developers are unable to see the defect.
+In this case, they change the status to Can't Reproduce.
+Flowchart:
+New / Open → Assign → Can't Reproduce → Assign → Fixed → Retest → Closed
+Reasons for Can't Reproduce:
+Because of inconsistent bugs.
+Due to installation problems.
+Because of improper defect reports.
+5. Can't Fix
+Whenever Test Engineers raise the defect, but developers are unable to fix it, then they will change the status to Can't Fix.
+Flowchart:
+New / Open → Assign → Can't Fix → Closed
+If it is a valid reason, it will be informed to the Manager or Business Analyst or Customer.
+Once it is finalized, it will be closed.
+Reasons for Can't Fix:
+Technology problem.
+Fixing one defect may lead to many defects.
+6. Request for Enhancement (RFE)
+Note: Request for Enhancement is a very important topic for getting a job in Cyberwell.
+Analyzing the status is very important.
+We can use tools like:
+QC
+ALM
+Jira
+Bugzilla
+FireFlink
+Etc.
+The status of defects would be used in a defect report.
+Whenever Test Engineers raise the defect, developers don't accept it as a defect, but developers accept it as a good suggestion.
+In this case, developers will change the status to Request for Enhancement.
+Flowchart:
+New / Open → Assign → RFE
+This whole process is called Status of Bug or Bug Life Cycle or Defect Life Cycle.
